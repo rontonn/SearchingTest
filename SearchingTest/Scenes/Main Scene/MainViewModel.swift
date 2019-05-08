@@ -114,7 +114,7 @@ class MainViewModel {
             }
             
         case .LastFm:
-            searchRequest = "?method=track.search&track=\(searchText)&limit=200&api_key=98d171503cc74b1736404710fa1fab12&format=json"
+            searchRequest = "?method=track.search&track=\(searchText)&limit=200&api_key=\(PrivateStaticData.lastFmApiKey)&format=json"
             NetworkManager.request(forSource: selectedSource, with: searchRequest) { [unowned self] (result: Result<LastFmResults, Error>) in
                 
                 switch result {

@@ -21,6 +21,7 @@
 		E81C91002281B217001FE09D /* LastFmResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81C90FF2281B217001FE09D /* LastFmResults.swift */; };
 		E81C91032281C07C001FE09D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81C91022281C07C001FE09D /* MainViewModel.swift */; };
 		E81C91052281C0B1001FE09D /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81C91042281C0B1001FE09D /* Box.swift */; };
+		E8382DE92282E34200E4ACC1 /* PrivateStaticData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8382DE82282E34200E4ACC1 /* PrivateStaticData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E81C90FF2281B217001FE09D /* LastFmResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFmResults.swift; sourceTree = "<group>"; };
 		E81C91022281C07C001FE09D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		E81C91042281C0B1001FE09D /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		E8382DE82282E34200E4ACC1 /* PrivateStaticData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateStaticData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				E81C90DD228166FB001FE09D /* Assets.xcassets */,
 				E81C91042281C0B1001FE09D /* Box.swift */,
+				E8382DE82282E34200E4ACC1 /* PrivateStaticData.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				E81C90F72281A4BC001FE09D /* NetworkManager.swift in Sources */,
 				E81C91052281C0B1001FE09D /* Box.swift in Sources */,
 				E81C91032281C07C001FE09D /* MainViewModel.swift in Sources */,
+				E8382DE92282E34200E4ACC1 /* PrivateStaticData.swift in Sources */,
 				E81C90F3228173C5001FE09D /* SearchResultCell.swift in Sources */,
 				E81C90F92281A7E1001FE09D /* ItunesSong.swift in Sources */,
 				E81C90F122816BAB001FE09D /* MainViewController.swift in Sources */,
