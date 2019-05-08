@@ -12,8 +12,8 @@ class NetworkManager {
     
     // MARK: - Class methods
     class func request<T: Codable>(forSource source: Source, with searchReq: String, completion: @escaping (Result<T, Error>) -> ()) {
-        
-        let url = URL(string: source.baseURL + searchReq)!
+
+        let url = URL(string: (source.baseURL + searchReq.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!))!
         
         let urlRequest = URLRequest(url: url)
         
